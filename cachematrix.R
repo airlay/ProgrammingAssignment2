@@ -5,6 +5,7 @@
 ## makeCacheMatrix puts matrix x in and output
 ## inverse matrix 
 
+
 makeCacheMatrix <- function(x = matrix()) {
   s <- NULL ## set s to NULL.  It will be used to save the solved 
             ##matrix
@@ -16,7 +17,7 @@ makeCacheMatrix <- function(x = matrix()) {
   
   get <- function() x  ## return the matrix
   
-  setInverse <- function(solve) s <<- solve 
+  setInverse <- function(solve) s <<- solve
           ## inverse the matrix 
   
   getInverse <- function() s ## return inversed matrix
